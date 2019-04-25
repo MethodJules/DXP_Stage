@@ -1,0 +1,10 @@
+uuid: 2330f616-bc1d-4ea4-ae25-839935733e79
+langcode: de
+status: true
+dependencies: {  }
+id: coll_embedded_citavi_entrie
+label: 'coll_embedded citavi import'
+created: true
+changed: true
+uid: false
+title: true

@@ -1,0 +1,10 @@
+uuid: 1b6d6fc2-bc12-4766-a14a-ec0f97c968ae
+langcode: de
+status: true
+dependencies: {  }
+id: coll_embedded_eprints_softw
+label: 'coll_embedded EPrints Software'
+created: true
+changed: true
+uid: false
+title: true

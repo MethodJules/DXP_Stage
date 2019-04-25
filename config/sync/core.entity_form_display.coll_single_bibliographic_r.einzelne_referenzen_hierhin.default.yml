@@ -1,0 +1,63 @@
+uuid: 9f78743c-4727-476f-9bbd-5d947e4cda0d
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.coll_single_bibliographic_r.einzelne_referenzen_hierhin
+    - field.field.coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_die_einzelne_refer
+    - field.field.coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_link_zur_online_publikatio
+    - field.field.coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_position
+  module:
+    - link
+    - text
+id: coll_single_bibliographic_r.einzelne_referenzen_hierhin.default
+targetEntityType: coll_single_bibliographic_r
+bundle: einzelne_referenzen_hierhin
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_die_einzelne_refer:
+    weight: 11
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_link_zur_online_publikatio:
+    weight: 12
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_position:
+    weight: 13
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

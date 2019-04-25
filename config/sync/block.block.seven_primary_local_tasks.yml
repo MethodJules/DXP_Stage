@@ -1,0 +1,22 @@
+uuid: 5b290f09-4d7a-4a7b-986b-6bc5bf266236
+langcode: de
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: ddy1OsBbWxjwEI8VL1viD4I69qcLHOkul4BxbTqLBTs
+id: seven_primary_local_tasks
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primäre Reiter'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

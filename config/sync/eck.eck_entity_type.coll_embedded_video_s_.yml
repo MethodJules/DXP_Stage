@@ -1,0 +1,10 @@
+uuid: d92a04de-384e-42f4-a149-7152b4d9d7c1
+langcode: de
+status: true
+dependencies: {  }
+id: coll_embedded_video_s_
+label: 'coll_embedded video(s) (gerechtfertigt???)'
+created: true
+changed: true
+uid: false
+title: true

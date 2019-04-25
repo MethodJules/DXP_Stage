@@ -1,0 +1,19 @@
+uuid: ae9b8eae-535a-4628-bdd2-ed077117ae6a
+langcode: de
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+id: coll_single_bibliographic_r.field_die_einzelne_refer
+field_name: field_die_einzelne_refer
+entity_type: coll_single_bibliographic_r
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

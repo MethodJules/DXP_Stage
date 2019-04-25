@@ -1,0 +1,14 @@
+uuid: 040ecca4-45b9-4808-8e67-0a091b5648dd
+name: DXP_local
+mail: hoferj@uni-hildesheim.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

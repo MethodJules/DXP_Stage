@@ -1,0 +1,10 @@
+uuid: 2a56939d-18c6-46b0-95ff-dbe7720cf78e
+langcode: de
+status: true
+dependencies: {  }
+id: coll_link_list
+label: coll_link-list
+created: true
+changed: true
+uid: false
+title: true

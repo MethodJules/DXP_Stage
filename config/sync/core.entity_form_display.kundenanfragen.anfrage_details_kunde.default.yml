@@ -1,0 +1,60 @@
+uuid: 0e568512-6dbb-4d86-9eb9-a0e4b98bf5fa
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.kundenanfragen.anfrage_details_kunde
+    - field.field.kundenanfragen.anfrage_details_kunde.field_anfrage_eingereicht_am
+    - field.field.kundenanfragen.anfrage_details_kunde.field_anhang_vom_kunden
+  module:
+    - datetime
+    - file
+id: kundenanfragen.anfrage_details_kunde.default
+targetEntityType: kundenanfragen
+bundle: anfrage_details_kunde
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_anfrage_eingereicht_am:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_anhang_vom_kunden:
+    weight: 12
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

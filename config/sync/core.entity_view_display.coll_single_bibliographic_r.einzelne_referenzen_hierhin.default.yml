@@ -1,0 +1,66 @@
+uuid: c76f3464-040c-4a7f-a9d6-ba71a49333bb
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.coll_single_bibliographic_r.einzelne_referenzen_hierhin
+    - field.field.coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_die_einzelne_refer
+    - field.field.coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_link_zur_online_publikatio
+    - field.field.coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_position
+  module:
+    - link
+    - text
+id: coll_single_bibliographic_r.einzelne_referenzen_hierhin.default
+targetEntityType: coll_single_bibliographic_r
+bundle: einzelne_referenzen_hierhin
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_die_einzelne_refer:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_link_zur_online_publikatio:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_position:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  langcode: true

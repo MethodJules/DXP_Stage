@@ -1,0 +1,21 @@
+uuid: 1f301a95-a8ac-4323-b85d-e547c18c2182
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.taxonomy_terms.zunaechst_nur_fuer_ueberschrifte
+    - field.storage.taxonomy_terms.field_einzelne_ueberschrft
+  module:
+    - text
+id: taxonomy_terms.zunaechst_nur_fuer_ueberschrifte.field_einzelne_ueberschrft
+field_name: field_einzelne_ueberschrft
+entity_type: taxonomy_terms
+bundle: zunaechst_nur_fuer_ueberschrifte
+label: 'einzelne Überschrift'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

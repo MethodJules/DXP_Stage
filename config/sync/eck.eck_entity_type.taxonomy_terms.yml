@@ -1,0 +1,10 @@
+uuid: ac577d35-ab4c-485a-be49-722930dc4471
+langcode: de
+status: true
+dependencies: {  }
+id: taxonomy_terms
+label: 'Taxonomy terms'
+created: true
+changed: true
+uid: false
+title: true

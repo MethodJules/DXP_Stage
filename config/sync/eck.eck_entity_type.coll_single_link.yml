@@ -1,0 +1,10 @@
+uuid: ef852330-da1b-429f-be1e-0c44049ed44c
+langcode: de
+status: true
+dependencies: {  }
+id: coll_single_link
+label: 'coll_single link'
+created: true
+changed: true
+uid: false
+title: true

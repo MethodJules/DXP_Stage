@@ -1,0 +1,10 @@
+uuid: 8296dee3-9832-4bfa-a343-d00a6d23d2f0
+langcode: de
+status: true
+dependencies: {  }
+id: coll_bibliography
+label: 'coll_bibliography (nur für übernommene)'
+created: true
+changed: true
+uid: false
+title: true

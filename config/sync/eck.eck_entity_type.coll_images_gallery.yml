@@ -1,0 +1,10 @@
+uuid: 11e959ae-1aed-445a-b181-c466e0981587
+langcode: de
+status: true
+dependencies: {  }
+id: coll_images_gallery
+label: coll_images/gallery
+created: true
+changed: true
+uid: false
+title: true

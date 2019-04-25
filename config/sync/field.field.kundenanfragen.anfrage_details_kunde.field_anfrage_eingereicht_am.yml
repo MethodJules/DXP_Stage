@@ -1,0 +1,24 @@
+uuid: 6cf3fbb9-4918-4427-b6b3-4f2241b72011
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.kundenanfragen.anfrage_details_kunde
+    - field.storage.kundenanfragen.field_anfrage_eingereicht_am
+  module:
+    - datetime
+id: kundenanfragen.anfrage_details_kunde.field_anfrage_eingereicht_am
+field_name: field_anfrage_eingereicht_am
+entity_type: kundenanfragen
+bundle: anfrage_details_kunde
+label: 'Anfrage eingereicht am'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,19 @@
+uuid: d6f34447-e727-4e41-a3b0-2ee80cc4a441
+langcode: de
+status: true
+dependencies:
+  module:
+    - eck
+    - link
+id: coll_single_bibliographic_r.field_link_zur_online_publikatio
+field_name: field_link_zur_online_publikatio
+entity_type: coll_single_bibliographic_r
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

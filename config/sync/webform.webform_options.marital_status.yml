@@ -1,0 +1,14 @@
+uuid: 2bc9d2d4-063b-43b9-9569-22c0571e6780
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: cjVDbAE5BlopGrY-tfxsxMoyEibwBBNgdQwDdxOSkow
+id: marital_status
+label: Familienstand
+category: Demographisch
+likert: false
+options: "Single: Single\nVerheiratet: verheiratet\ngeschieden: geschieden\nverwitwet: verwitwet\n"

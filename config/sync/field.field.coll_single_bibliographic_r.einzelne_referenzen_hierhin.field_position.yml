@@ -1,0 +1,23 @@
+uuid: df1571b2-b101-4f3e-8a38-19eab4ab7373
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.coll_single_bibliographic_r.einzelne_referenzen_hierhin
+    - field.storage.coll_single_bibliographic_r.field_position
+id: coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_position
+field_name: field_position
+entity_type: coll_single_bibliographic_r
+bundle: einzelne_referenzen_hierhin
+label: Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

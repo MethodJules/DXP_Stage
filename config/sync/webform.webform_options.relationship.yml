@@ -1,0 +1,14 @@
+uuid: bd4ffd1a-8f93-4e75-9b16-2336c8aed79e
+langcode: de
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 4J2RPG4JmsD4Fm1NlIQY0JHkrJ08UUl0qTF0_EjUxvw
+id: relationship
+label: Relationship
+category: Demographisch
+likert: false
+options: "Eltern: Eltern\nBezugsperson: 'Bezugsperson'\nGeschwister: Geschwister\nKind: Kind\nFreunde: Freunde\n"

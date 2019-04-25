@@ -1,0 +1,20 @@
+uuid: 48609f5f-025e-4c02-a874-73f79b878580
+langcode: de
+status: true
+dependencies:
+  module:
+    - datetime
+    - eck
+id: kundenanfragen.field_anfrage_eingereicht_am
+field_name: field_anfrage_eingereicht_am
+entity_type: kundenanfragen
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 20
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

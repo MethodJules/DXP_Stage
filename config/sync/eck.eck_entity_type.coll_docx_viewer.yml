@@ -1,0 +1,10 @@
+uuid: b4132f01-5ca1-4262-8b09-3f30155f0896
+langcode: de
+status: true
+dependencies: {  }
+id: coll_docx_viewer
+label: coll_docx-viewer
+created: true
+changed: true
+uid: false
+title: true

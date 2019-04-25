@@ -1,0 +1,10 @@
+uuid: 5aedf88d-ad75-4209-adc8-9e10f20752bf
+langcode: de
+status: true
+dependencies: {  }
+id: coll_single_bibliographic_r
+label: 'coll_single bibliographic reference'
+created: true
+changed: true
+uid: false
+title: true

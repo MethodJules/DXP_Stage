@@ -1,0 +1,20 @@
+uuid: be2664f1-ad3e-4d6a-b229-96afcd92ade6
+langcode: de
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+id: taxonomy_terms.field_einzelne_ueberschrft
+field_name: field_einzelne_ueberschrft
+entity_type: taxonomy_terms
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

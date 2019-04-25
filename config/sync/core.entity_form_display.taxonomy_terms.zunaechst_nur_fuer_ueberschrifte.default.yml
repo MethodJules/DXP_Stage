@@ -1,0 +1,44 @@
+uuid: 823fd9dd-7ec7-41d3-b74e-cba556cfdb6e
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.taxonomy_terms.zunaechst_nur_fuer_ueberschrifte
+    - field.field.taxonomy_terms.zunaechst_nur_fuer_ueberschrifte.field_einzelne_ueberschrft
+  module:
+    - text
+id: taxonomy_terms.zunaechst_nur_fuer_ueberschrifte.default
+targetEntityType: taxonomy_terms
+bundle: zunaechst_nur_fuer_ueberschrifte
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_einzelne_ueberschrft:
+    weight: 11
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

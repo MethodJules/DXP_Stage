@@ -1,0 +1,10 @@
+uuid: 2260cd0b-30b5-4c6d-a1d8-e2f15c9319a9
+langcode: de
+status: true
+dependencies: {  }
+id: kundenanfragen
+label: KUNDENANFRAGEN
+created: true
+changed: true
+uid: true
+title: true

@@ -1,0 +1,22 @@
+uuid: 929bdc98-d5be-4675-b224-adf7423a8666
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.coll_single_bibliographic_r.einzelne_referenzen_hierhin
+    - field.storage.coll_single_bibliographic_r.field_die_einzelne_refer
+  module:
+    - text
+id: coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_die_einzelne_refer
+field_name: field_die_einzelne_refer
+entity_type: coll_single_bibliographic_r
+bundle: einzelne_referenzen_hierhin
+label: 'Die einzelne Referenz '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,20 @@
+uuid: fd944fb0-8846-4bed-9403-a758e3b07764
+langcode: de
+status: true
+dependencies:
+  module:
+    - eck
+id: coll_single_bibliographic_r.field_position
+field_name: field_position
+entity_type: coll_single_bibliographic_r
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: 56d18f37-f91f-4ab8-b2f5-dbde7055e52d
+langcode: de
+status: true
+dependencies: {  }
+id: coll_files_to_download
+label: 'coll_files to download (gerechtfertigt???)'
+created: true
+changed: true
+uid: false
+title: true

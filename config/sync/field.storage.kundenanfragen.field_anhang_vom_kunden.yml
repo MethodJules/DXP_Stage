@@ -1,0 +1,23 @@
+uuid: 7a74287b-c085-46c9-a7c2-9a4f564d040a
+langcode: de
+status: true
+dependencies:
+  module:
+    - eck
+    - file
+id: kundenanfragen.field_anhang_vom_kunden
+field_name: field_anhang_vom_kunden
+entity_type: kundenanfragen
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

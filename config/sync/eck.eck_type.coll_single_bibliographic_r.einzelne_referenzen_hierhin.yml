@@ -1,0 +1,9 @@
+uuid: 29f3be21-c22d-4966-996b-fb33f241598a
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.coll_single_bibliographic_r
+name: 'einzelne Referenzen hierhin'
+type: einzelne_referenzen_hierhin
+description: 'Hier gehören nur die einzelnen Referenzen hin'

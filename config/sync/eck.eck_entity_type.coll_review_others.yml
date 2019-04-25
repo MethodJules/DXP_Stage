@@ -1,0 +1,10 @@
+uuid: 690ffd37-88b7-42e4-894a-98d60aa6d917
+langcode: de
+status: true
+dependencies: {  }
+id: coll_review_others
+label: 'coll_review others'
+created: true
+changed: true
+uid: false
+title: true

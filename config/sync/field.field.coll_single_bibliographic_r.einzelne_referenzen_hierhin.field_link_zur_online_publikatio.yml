@@ -1,0 +1,23 @@
+uuid: e92ffe8f-c3cb-43eb-92ec-82f6fc4a3ef2
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_type.coll_single_bibliographic_r.einzelne_referenzen_hierhin
+    - field.storage.coll_single_bibliographic_r.field_link_zur_online_publikatio
+  module:
+    - link
+id: coll_single_bibliographic_r.einzelne_referenzen_hierhin.field_link_zur_online_publikatio
+field_name: field_link_zur_online_publikatio
+entity_type: coll_single_bibliographic_r
+bundle: einzelne_referenzen_hierhin
+label: 'Link zur online-Publikation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

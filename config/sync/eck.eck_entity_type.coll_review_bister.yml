@@ -1,0 +1,10 @@
+uuid: a25e5e73-316f-4bce-b450-0f7f29c5c269
+langcode: de
+status: true
+dependencies: {  }
+id: coll_review_bister
+label: 'coll_review Bister'
+created: true
+changed: true
+uid: false
+title: true

@@ -1,0 +1,9 @@
+uuid: bcb920ea-59b2-400b-8568-23223d9d42ba
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.kundenanfragen
+name: Anfrage-Details_Kunde
+type: anfrage_details_kunde
+description: ''

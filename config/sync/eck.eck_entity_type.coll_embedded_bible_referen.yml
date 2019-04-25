@@ -1,0 +1,10 @@
+uuid: 3ec73240-85e0-4cc3-a1ed-fc0d7b851e90
+langcode: de
+status: true
+dependencies: {  }
+id: coll_embedded_bible_referen
+label: 'coll_embedded bible references (aus Python-Umgebungen)'
+created: true
+changed: true
+uid: false
+title: true

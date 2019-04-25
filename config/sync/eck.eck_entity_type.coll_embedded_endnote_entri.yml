@@ -1,0 +1,10 @@
+uuid: b27d75c0-9482-4f3f-9f9b-815ec046da34
+langcode: de
+status: true
+dependencies: {  }
+id: coll_embedded_endnote_entri
+label: 'coll_embedded EndNote import'
+created: true
+changed: true
+uid: false
+title: true

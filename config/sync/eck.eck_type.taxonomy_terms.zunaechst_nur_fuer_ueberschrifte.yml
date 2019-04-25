@@ -1,0 +1,9 @@
+uuid: 59902da1-7780-48af-920c-4bf1d6696c2f
+langcode: de
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.taxonomy_terms
+name: 'zunächst nur für Überschriften verwenden'
+type: zunaechst_nur_fuer_ueberschrifte
+description: ''

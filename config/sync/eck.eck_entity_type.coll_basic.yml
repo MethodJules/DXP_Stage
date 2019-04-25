@@ -1,0 +1,10 @@
+uuid: 70c34d47-290b-445c-9fcd-aa3450a83066
+langcode: de
+status: true
+dependencies: {  }
+id: coll_basic
+label: coll_basic
+created: true
+changed: true
+uid: false
+title: true
